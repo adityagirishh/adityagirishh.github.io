@@ -36,7 +36,7 @@ export default function App() {
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-12">
               <div className="max-w-2xl">
                 <h1 className="text-3xl md:text-5xl font-medium tracking-tight text-zinc-900 leading-[1.15]">
-                  Computer Science '26. Specializing in AI, Machine Learning, and Cloud Infrastructure.
+                  Computer Science at PES university '26. Specializing in AI, Machine Learning, and Cloud Infrastructure.
                 </h1>
                 <p className="mt-8 text-lg leading-relaxed text-zinc-500 max-w-xl">
                   {profile.summary}
