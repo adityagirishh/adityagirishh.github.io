@@ -15,9 +15,20 @@ export const profile = {
 
 export const experience = [
   {
+    role: 'AIML Engineer',
+    company: 'TruEstate',
+    period: 'Jul 2026 – Present',
+    location: 'Bengaluru, India',
+    bullets: [
+      'Constructed a multi-agent knowledge-base pipeline on ChromaDB, automating document ingestion, chunking, and embedding across 28 data repositories.',
+'Built the initial RAG + MCP framework for customer communication, authoring a FastMCP server whose tools retrieved stage-aware context from a vectorized SOP database, with the LLM inferring process stage to fetch only relevant context, cutting manual intervention by 45%.',
+'Automated an AI-driven content management system handling website generation, authentication, and lead flow, cutting manual effort by 90% via GitHub CI/CD and Firebase hosting.'
+    ]
+  },
+  {
     role: 'Software Engineer Intern – AI',
     company: 'TruEstate',
-    period: 'Jan 2026 – Present',
+    period: 'Jan 2026 – Jul 2026',
     location: 'Bengaluru, India',
     bullets: [
       'Developed a hybrid RAG + agentic system on Vertex AI and Cloud Run, reducing customer acquisition costs by 40% and manual effort by 45%.',
