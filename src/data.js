@@ -230,5 +230,24 @@ export const certifications = [
     issuer: 'Google Cloud',
     code: 'In Progress',
     category: 'Cloud Certification'
+  },
+  {
+    name: 'Harness Certified CR Developer',
+    issuer: 'Harness',
+    code: 'Completed',
+    category: 'CI/CD Certification'
+  },
+  {
+    name: 'AWS Educate Introduction to Generative AI ',
+    issuer: 'Amazon Web Services',
+    code: 'Completed',
+    category: 'Artificial Intelligence Certification'
+  },
+  {
+    name: 'AWS Educate Machine Learning Foundations',
+    issuer: 'Amazon Web Services',
+    code: 'Completed',
+    category: 'Machine Learning Certification'
   }
+  
 ]
