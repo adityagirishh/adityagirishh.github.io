@@ -172,6 +172,7 @@ export const writing = [
 ]
 
 export const academicHighlights = [
+  'GPA : 8.85 / 10',
   'B.Tech. in Computer Science, PES University, Bengaluru (2022–2026).',
   'MRD Scholarship (Top 5%) and CNR Scholarship (Top 10%, two-time recipient).',
   'Grand Challenges Impact Lab foreign exchange with the University of Washington and BMS College of Engineering.'
