@@ -135,11 +135,20 @@ export const projects = [
 
 export const publications = [
   {
-    title: 'MSTRAE: Multi-Scale Temporal Recurrent Autoencoder for Flight Manoeuvre Recognition',
-    venue: 'Future Technologies Conference (FTC) 2026',
-    meta: 'Accepted for presentation and publication · Springer Lecture Notes in Networks and Systems · Web of Science / SCOPUS / INSPEC consideration',
+    title: "When Does Structure Help? Graph vs. Tabular Models for Agent-Workflow Cost Prediction",
+    venue: "AAAI Conference on Artificial Intelligence (AAAI 2027)",
+    status: "Under Review",
+    meta: "Submitted · Main Technical Track · AAAI Press Proceedings (if accepted) · CORE A* · Double-blind peer review",
     description:
-      'A research work on flight manoeuvre recognition using a multi-scale LSTM autoencoder, HMM-based clustering, and an LLM-based evaluation framework for zero-shot recognition on telemetry data.'
+      "Investigates when graph neural networks outperform tabular models for agent-workflow cost prediction, demonstrating across 357K real coding-agent rounds that graph models lose when execution costs do not propagate through workflow structure."
+  },
+  {
+    title: "MSTRAE: Multi-Scale Temporal Recurrent Autoencoder for Flight Manoeuvre Recognition",
+    venue: "Future Technologies Conference (FTC 2026)",
+    status: "Accepted",
+    meta: "Accepted for presentation and publication · Springer Lecture Notes in Networks and Systems (LNNS) · Double-blind peer reviewed · Proceedings submitted for indexing in Web of Science CPCI, Scopus, Google Scholar, DBLP, INSPEC and other major databases",
+    description:
+      "Introduces a multi-scale temporal recurrent autoencoder with HMM-based clustering and an LLM-assisted evaluation framework for aircraft flight manoeuvre recognition from telemetry data."
   }
 ]
 
