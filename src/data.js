@@ -8,7 +8,7 @@ export const profile = {
   links: {
     github: 'https://github.com/adityagirishh',
     linkedin: 'https://www.linkedin.com/in/adityagirishh/',
-    resume: '/resume.pdf',
+    resume: '/AdityaGirish_final.pdf',
     medium: 'https://medium.com/@adityadeepa634'
   }
 }
