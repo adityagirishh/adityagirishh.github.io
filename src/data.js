@@ -140,7 +140,7 @@ export const publications = [
     status: "Under Review",
     meta: "Submitted · Main Technical Track · AAAI Press Proceedings (if accepted) · CORE A* · Double-blind peer review",
     description:
-      "Investigates when graph neural networks outperform tabular models for agent-workflow cost prediction, demonstrating across 357K real coding-agent rounds that graph models lose when executi[...]
+      "Investigates when graph neural networks outperform tabular models for agent-workflow cost prediction, demonstrating across 357K real coding-agent rounds that graph models lose when execution costs do not propagate through workflow structure."
   },
   {
     title: "MSTRAE: Multi-Scale Temporal Recurrent Autoencoder for Flight Manoeuvre Recognition",
