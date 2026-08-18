@@ -10,6 +10,10 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/adityagirishh/',
     resume: '/resume.pdf',
     medium: 'https://medium.com/@adityadeepa634'
+  },
+  ongoing: {
+    description:
+      'building an agent-based autoresearch framework for optimizing IQAE, an iterative quantum amplitude estimation algorithm.'
   }
 }
 

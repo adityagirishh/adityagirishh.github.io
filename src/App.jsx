@@ -32,34 +32,45 @@ export default function App() {
         
         {/* HERO SECTION */}
         <section id="home" className="pt-40 pb-24 md:pt-52 md:pb-32">
-          <Reveal>
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-12">
-              <div className="max-w-2xl">
-                <h1 className="text-3xl md:text-5xl font-medium tracking-tight text-zinc-900 leading-[1.15]">
-                  AI/ML engineer. Agents, retrieval, and the research behind both.
-                </h1>
-                <p className="mt-8 text-lg leading-relaxed text-zinc-500 max-w-xl">
-                  {profile.summary}
-                </p>
-                
-                <div className="mt-10 flex flex-wrap gap-6 border-t border-zinc-200 pt-8">
-                  <MinimalLink href={profile.links.github} label="GitHub" />
-                  <MinimalLink href={profile.links.linkedin} label="LinkedIn" />
-                  <MinimalLink href={profile.links.medium} label="Medium" />
-                  <MinimalLink href={profile.links.resume} label="Resume / CV" />
-                </div>
-              </div>
-              
-              <div className="hidden md:block shrink-0">
-                <img 
-                  src={profileImg} 
-                  alt="Aditya Girish" 
-                  className="w-32 h-40 object-cover grayscale opacity-90 object-top"
-                />
-              </div>
-            </div>
-          </Reveal>
-        </section>
+  <Reveal>
+    <div className="flex flex-col md:flex-row md:items-end justify-between gap-12">
+      <div className="max-w-2xl">
+        <h1 className="text-3xl md:text-5xl font-medium tracking-tight text-zinc-900 leading-[1.15]">
+          AI/ML Research Engineer. Agents, retrieval, and the research behind both.
+        </h1>
+        <p className="mt-8 text-lg leading-relaxed text-zinc-500 max-w-xl">
+          {profile.summary}
+        </p>
+
+        <div className="mt-8 flex items-start gap-3">
+          <span className="relative mt-[0.5rem] flex h-1.5 w-1.5 shrink-0">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
+            <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-emerald-500" />
+          </span>
+          <p className="text-sm leading-relaxed text-zinc-500">
+            <span className="font-medium text-zinc-900">Currently</span>{' '}
+            {profile.ongoing.description}
+          </p>
+        </div>
+
+        <div className="mt-10 flex flex-wrap gap-6 border-t border-zinc-200 pt-8">
+          <MinimalLink href={profile.links.github} label="GitHub" />
+          <MinimalLink href={profile.links.linkedin} label="LinkedIn" />
+          <MinimalLink href={profile.links.medium} label="Medium" />
+          <MinimalLink href={profile.links.resume} label="Resume / CV" />
+        </div>
+      </div>
+
+      <div className="hidden md:block shrink-0">
+        <img
+          src={profileImg}
+          alt="Aditya Girish"
+          className="w-32 h-40 object-cover grayscale opacity-90 object-top"
+        />
+      </div>
+    </div>
+  </Reveal>
+</section>
 
         {/* ABOUT / EDUCATION */}
         <section id="about" className="py-16 md:py-24 border-t border-zinc-900">
