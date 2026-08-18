@@ -4,7 +4,7 @@ export const profile = {
     "Computer Science (PES University '26) | Machine Learning, LLMs, RAG, and GCP",
   location: 'Bengaluru, India',
   summary:
-    'Machine learning engineer with experience in LLMs, RAG systems, deep learning, and production Google Cloud deployments.',
+    'I work on agent systems and retrieval. Currently an AI/ML engineer at TruEstate, building voice agents and retrieval pipelines for real estate. My research is on execution-state attribution, cost prediction for agent workflows, and unsupervised manoeuvre recognition in flight telemetry, with a paper accepted to FTC 2026 and two more under review.',
   links: {
     github: 'https://github.com/adityagirishh',
     linkedin: 'https://www.linkedin.com/in/adityagirishh/',
@@ -34,17 +34,6 @@ export const experience = [
       'Developed a hybrid RAG + agentic system on Vertex AI and Cloud Run, reducing customer acquisition costs by 40% and manual effort by 45%.',
       'Deployed real-time Pub/Sub to BigQuery ML data pipelines that increased customer engagement by 35%.',
       'Architected a scalable multi-tenant GCP infrastructure for full customer lifecycle automation.'
-    ]
-  },
-  {
-    role: 'Strategic AI & GCP Consulting Engineer',
-    company: 'Viable Ideas Private Limited',
-    period: 'Jul 2025 – Jan 2026',
-    location: 'Bengaluru, India',
-    bullets: [
-      'Advised leadership on Vertex AI and Cloud Run adoption, delivering solution engineering and technical consulting.',
-      'Designed production LLM deployments with autoscaling and caching, projecting 50% inference cost savings.',
-      'Implemented CI/CD, debugging, and observability across GCP environments.'
     ]
   },
   {
@@ -211,6 +200,12 @@ export const openSource = [
 ]
 
 export const certifications = [
+  {
+    name: 'ML Community Summer School',
+    issuer: 'Cohere Labs',
+    code: 'MLCSS',
+    category: 'Certification Coursework'
+  },
   {
     name: 'LLM Agents',
     issuer: 'UC Berkeley',

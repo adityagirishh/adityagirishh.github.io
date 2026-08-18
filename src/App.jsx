@@ -36,7 +36,7 @@ export default function App() {
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-12">
               <div className="max-w-2xl">
                 <h1 className="text-3xl md:text-5xl font-medium tracking-tight text-zinc-900 leading-[1.15]">
-                  Computer Science at PES university '26. Specializing in AI, Machine Learning, and Cloud Infrastructure.
+                  AI/ML engineer. Agents, retrieval, and the research behind both.
                 </h1>
                 <p className="mt-8 text-lg leading-relaxed text-zinc-500 max-w-xl">
                   {profile.summary}
@@ -89,6 +89,75 @@ export default function App() {
           </Reveal>
         </section>
 
+        {/* RESEARCH */}
+        <section id="research" className="py-16 md:py-24 border-t border-zinc-900">
+          <Reveal>
+            <SectionHeading
+              title="Publications"
+              description="Academic proof-of-work in peer-reviewed environments."
+            />
+            <div className="mt-8">
+              {publications.map((pub) => (
+                <Reveal key={pub.title}>
+                  <PublicationCard pub={pub} />
+                </Reveal>
+              ))}
+            </div>
+          </Reveal>
+        </section>
+
+        
+        {/* EXPERIENCE */}
+        <section id="experience" className="py-16 md:py-24 border-t border-zinc-900">
+          <Reveal>
+            <SectionHeading
+              title="Industry Experience"
+              description="Applied AI, cloud orchestration, and production-minded delivery."
+            />
+            <div className="mt-8">
+              {experience.map((item, idx) => (
+                <Reveal key={item.role} delay={idx * 0.05}>
+                  <ExperienceCard item={item} />
+                </Reveal>
+              ))}
+            </div>
+          </Reveal>
+        </section>
+
+        {/* OPEN SOURCE */}
+        <section id="opensource" className="py-16 md:py-24 border-t border-zinc-900">
+          <Reveal>
+            <SectionHeading
+              title="Open Source"
+              description="Contributions and recognition in leading AI and ML development platforms."
+            />
+            <div className="mt-8">
+              {openSource.map((item, idx) => (
+                <Reveal key={item.project} delay={idx * 0.05}>
+                  <OpenSourceCard item={item} />
+                </Reveal>
+              ))}
+            </div>
+          </Reveal>
+        </section>
+
+        {/* PROJECTS */}
+        <section id="projects" className="py-16 md:py-24 border-t border-zinc-900">
+          <Reveal>
+            <SectionHeading
+              title="Selected Builds"
+              description="A curated overview of research architectures and production products."
+            />
+            <div className="mt-8">
+              {projects.map((project, idx) => (
+                <Reveal key={project.name} delay={idx * 0.05}>
+                  <ProjectCard project={project} />
+                </Reveal>
+              ))}
+            </div>
+          </Reveal>
+        </section>
+
         {/* CERTIFICATIONS */}
         <section id="certifications" className="py-16 md:py-24 border-t border-zinc-900">
           <Reveal>
@@ -116,74 +185,6 @@ export default function App() {
                       )}
                     </div>
                   </div>
-                </Reveal>
-              ))}
-            </div>
-          </Reveal>
-        </section>
-
-        {/* EXPERIENCE */}
-        <section id="experience" className="py-16 md:py-24 border-t border-zinc-900">
-          <Reveal>
-            <SectionHeading
-              title="Industry Experience"
-              description="Applied AI, cloud orchestration, and production-minded delivery."
-            />
-            <div className="mt-8">
-              {experience.map((item, idx) => (
-                <Reveal key={item.role} delay={idx * 0.05}>
-                  <ExperienceCard item={item} />
-                </Reveal>
-              ))}
-            </div>
-          </Reveal>
-        </section>
-
-        {/* PROJECTS */}
-        <section id="projects" className="py-16 md:py-24 border-t border-zinc-900">
-          <Reveal>
-            <SectionHeading
-              title="Selected Builds"
-              description="A curated overview of research architectures and production products."
-            />
-            <div className="mt-8">
-              {projects.map((project, idx) => (
-                <Reveal key={project.name} delay={idx * 0.05}>
-                  <ProjectCard project={project} />
-                </Reveal>
-              ))}
-            </div>
-          </Reveal>
-        </section>
-
-        {/* OPEN SOURCE */}
-        <section id="opensource" className="py-16 md:py-24 border-t border-zinc-900">
-          <Reveal>
-            <SectionHeading
-              title="Open Source"
-              description="Contributions and recognition in leading AI and ML development platforms."
-            />
-            <div className="mt-8">
-              {openSource.map((item, idx) => (
-                <Reveal key={item.project} delay={idx * 0.05}>
-                  <OpenSourceCard item={item} />
-                </Reveal>
-              ))}
-            </div>
-          </Reveal>
-        </section>
-
-        {/* RESEARCH */}
-        <section id="research" className="py-16 md:py-24 border-t border-zinc-900">
-          <Reveal>
-            <SectionHeading
-              title="Publications"
-              description="Academic proof-of-work in peer-reviewed environments."
-            />
-            <div className="mt-8">
-              {publications.map((pub) => (
-                <Reveal key={pub.title}>
-                  <PublicationCard pub={pub} />
                 </Reveal>
               ))}
             </div>
