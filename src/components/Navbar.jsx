@@ -3,11 +3,11 @@ import { useState } from 'react'
 
 const links = [
   { label: 'About', href: '#about' },
-  { label: 'Certifications', href: '#certifications' },
-  { label: 'Experience', href: '#experience' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Open Source', href: '#opensource' },
   { label: 'Research', href: '#research' },
+  { label: 'Experience', href: '#experience' },
+  { label: 'Open Source', href: '#opensource' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Certifications', href: '#certifications' },
   { label: 'Writing', href: '#writing' },
   { label: 'Contact', href: '#contact' }
 ]
