@@ -84,6 +84,21 @@ export const experience = [
 
 export const projects = [
   {
+
+    name: 'QRAG (Quantized Bi-Level Retrieval Augmented Generation)',
+
+    tag: 'Memory-optimized RAG',
+
+    description:
+
+      'A memory-efficient RAG system using dual-level quantization, achieving 3–4x memory reduction and 95.1% recall@10 on the FIQA dataset.',
+
+    highlights: ['Quantized retrieval', 'Memory efficiency', 'RAG research'],
+
+    link: 'https://github.com/adityagirishh/Quantized-RAG'
+
+  },
+  {
     name: 'OriginScale',
     tag: 'Clustering Research',
     description:
@@ -100,28 +115,11 @@ export const projects = [
     link: 'https://github.com/adityagirishh/FinFusion-A-Finance-Risk-Fusion-Model'
   },
   {
-    name: 'Vett',
-    tag: 'AI startup validation',
-    description:
-      'An AI-powered platform for validating startup ideas, designed as a multi-tenant builder-first product.',
-    highlights: ['Idea validation workflow', 'Product thinking', 'Builder-first experience'],
-    link: ''
-  },
-  {
     name: 'Project Equilibrium',
     tag: 'Autonomous agents',
     description:
       'An autonomous multi-agent system for supply chain contracts, contributed to as an invited contributor in the Aden ecosystem.',
-    highlights: ['Multi-agent coordination', 'Workflow automation', 'Supply-chain contracts'],
-    link: 'https://github.com/adityagirishh/Equilibrium'
-  },
-  {
-    name: 'QRAG (Quantized Bi-Level Retrieval Augmented Generation)',
-    tag: 'Memory-optimized RAG',
-    description:
-      'A memory-efficient RAG system using dual-level quantization, achieving 3–4x memory reduction and 95.1% recall@10 on the FIQA dataset.',
-    highlights: ['Quantized retrieval', 'Memory efficiency', 'RAG research'],
-    link: 'https://github.com/adityagirishh/Quantized-RAG'
+    highlights: ['Multi-agent coordination', 'Workflow automation', 'Supply-chain contracts']
   },
   {
     name: 'LexiGen',
@@ -135,21 +133,29 @@ export const projects = [
 
 export const publications = [
   {
+    title: "MSTRAE: Multi-Scale Temporal Recurrent Autoencoder for Flight Manoeuvre Recognition",
+    venue: "Lead Author • Future Technologies Conference (FTC 2026)",
+    status: "Accepted",
+    meta: "Accepted for presentation and publication · Springer Lecture Notes in Networks and Systems (LNNS) · Double-blind peer reviewed · Proceedings submitted for indexing in Web of Science[...]",
+    description:
+      "Introduces a multi-scale temporal recurrent autoencoder with HMM-based clustering and an LLM-assisted evaluation framework for aircraft flight manoeuvre recognition from telemetry data."
+  },
+  {
     title: "When Does Structure Help? Graph vs. Tabular Models for Agent-Workflow Cost Prediction",
-    venue: "AAAI Conference on Artificial Intelligence (AAAI 2027)",
+    venue: "Solo Author • AAAI Conference on Artificial Intelligence (AAAI 2027)",
     status: "Under Review",
     meta: "Submitted · Main Technical Track · AAAI Press Proceedings (if accepted) · CORE A* · Double-blind peer review",
     description:
       "Investigates when graph neural networks outperform tabular models for agent-workflow cost prediction, demonstrating across 357K real coding-agent rounds that graph models lose when execution costs do not propagate through workflow structure."
   },
   {
-    title: "MSTRAE: Multi-Scale Temporal Recurrent Autoencoder for Flight Manoeuvre Recognition",
-    venue: "Future Technologies Conference (FTC 2026)",
-    status: "Accepted",
-    meta: "Accepted for presentation and publication · Springer Lecture Notes in Networks and Systems (LNNS) · Double-blind peer reviewed · Proceedings submitted for indexing in Web of Science[...]",
-    description:
-      "Introduces a multi-scale temporal recurrent autoencoder with HMM-based clustering and an LLM-assisted evaluation framework for aircraft flight manoeuvre recognition from telemetry data."
-  }
+title: "Execution State Attribution: From Provenance Records to Causally Sufficient State in Agent Runs",
+venue: "Solo Author • NeurIPS 2026 Workshop on Attribution (ATTRIB)",
+status: "Submitted",
+meta: "Methods Paper · NeurIPS Workshop Submission · Causal Attribution",
+description:
+"Formalizes execution state attribution as recovery of minimal γ-sufficient subsets of runtime state whose resampled complements preserve observed agent behavior, showing that per-step necessity scores fail under conjunctive and redundant dependencies and motivating set-level causal attribution."
+}  
 ]
 
 export const writing = [
@@ -181,7 +187,7 @@ export const writing = [
 ]
 
 export const academicHighlights = [
-  'GPA : 8.85 / 10',
+  'GPA : 8.86 / 10',
   'B.Tech. in Computer Science, PES University, Bengaluru (2022–2026).',
   'MRD Scholarship (Top 5%) and CNR Scholarship (Top 10%, two-time recipient).',
   'Grand Challenges Impact Lab foreign exchange with the University of Washington and BMS College of Engineering.'
