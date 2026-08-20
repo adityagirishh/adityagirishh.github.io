@@ -13,6 +13,7 @@ export const profile = {
   },
   ongoing: {
     description:
+      'AutoBenchmark: A Closed-Loop Autonomous Benchmarking Framework'
       'building an agent-based autoresearch framework for optimizing IQAE, an iterative quantum amplitude estimation algorithm.'
   }
 }
