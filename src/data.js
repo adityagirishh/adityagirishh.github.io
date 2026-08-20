@@ -9,7 +9,7 @@ export const profile = {
     github: 'https://github.com/adityagirishh',
     linkedin: 'https://www.linkedin.com/in/adityagirishh/',
     resume: '/resume.pdf',
-    medium: 'https://medium.com/@adityadeepa634'
+    medium: 'https://medium.com/@adityadeepa634',
     researchproposition : '/AutoBenchmark_adityagirish.pdf'
   },
   ongoing: {
