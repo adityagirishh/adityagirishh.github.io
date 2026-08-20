@@ -58,6 +58,7 @@ export default function App() {
           <MinimalLink href={profile.links.linkedin} label="LinkedIn" />
           <MinimalLink href={profile.links.medium} label="Medium" />
           <MinimalLink href={profile.links.resume} label="Resume / CV" />
+          <MinimalLink href={profile.links.researchproposition} label="Current Research" />
         </div>
       </div>
 
